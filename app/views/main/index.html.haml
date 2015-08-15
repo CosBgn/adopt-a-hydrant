@@ -15,14 +15,12 @@
         #col1
           %a{:href => "http://codeforamerica.org/"}
             = image_tag "logos/cfa.png", :alt => t("sponsors.cfa"), :title => t("sponsors.cfa")
-            
-             %a{:href => "http://datalook.io/"}
-            = image_tag "logos/datalook.png", :alt => t("sponsors.city"), :title => t("sponsors.city")
-          %br 
+          %br
+          %a{:href => "http://datalook.io/"}
+            = image_tag "logos/datalook.png", :alt => t("sponsors.built"), :title => t("sponsors.built")
         #col2
-          %a{:href => "http://github.com/costantinb/adopt-a-hydrant/"}
+          %a{:href => "http://www.github.com/costantinb/adopt-a-hydrant/"}
             = image_tag "logos/forkme.png", :alt => t("sponsors.city"), :title => t("sponsors.city")
-      
       #feedback
         %p
           %a{:href => URI.escape("mailto:costantin@datalook.io?subject=#{t("titles.main", :thing => t("defaults.thing").titleize)} - #{t("links.feedback").titleize}")}
