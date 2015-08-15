@@ -12,9 +12,15 @@
         - else
           = render :partial => "sidebar/combo_form"
       #logos
-        
+        #col1
+          %a{:href => "http://datalook.io/"}
+            = image_tag "logos/datalook.png", :alt => t("sponsors.datalook"), :title => t("sponsors.datalook")
+          %br
           %a{:href => "http://codeforamerica.org/"}
             = image_tag "logos/cfa.png", :alt => t("sponsors.cfa"), :title => t("sponsors.cfa")
+        #col2
+          %a{:href => "http://github.com/costantinb/adopt-a-hydrant/"}
+            = image_tag "logos/github.png", :alt => t("sponsors.cfa"), :title => t("sponsors.cfa")
           %br 
         
           %a{:href => "http://datalook.io/"}
