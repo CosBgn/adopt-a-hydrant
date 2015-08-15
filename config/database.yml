@@ -3,16 +3,12 @@ development:
   encoding: unicode
   database: adopt_a_thing_development
   pool: 5
-  username: costantin
-  password: p
 
 test:
  adapter: postgresql
  encoding: unicode
  database: adopt_a_thing_test
  pool: 5
- username: costantin
- password: p
 
 
 production:
@@ -20,5 +16,3 @@ production:
  encoding: unicode
  database: adopt_a_thing_production
  pool: 5
- username: costantin    
- password: p
