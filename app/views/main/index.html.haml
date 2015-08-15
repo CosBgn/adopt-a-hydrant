@@ -1,4 +1,4 @@
- .table
+table
   .table-row
     .table-cell.sidebar
       %h1
@@ -13,17 +13,18 @@
           = render :partial => "sidebar/combo_form"
       #logos
         #col1
+          %a{:href => "http://datalook.io/"}
+            = image_tag "logos/datalook.png", :alt => t("sponsors.datalook"), :title => t("sponsors.datalook")
+          %br
           %a{:href => "http://codeforamerica.org/"}
             = image_tag "logos/cfa.png", :alt => t("sponsors.cfa"), :title => t("sponsors.cfa")
-          %br 
         #col2
-          %a{:href => "http://datalook.io/"}
-            = image_tag "logos/datalook.png", :alt => t("sponsors.city"), :title => t("sponsors.city")
-      
+          %a{:href => "http://www.cityofboston.gov/"}
+            = image_tag "logos/boston.png", :alt => t("sponsors.city"), :title => t("sponsors.city")
       #feedback
         %p
           %a{:href => URI.escape("mailto:costantin@datalook.io?subject=#{t("titles.main", :thing => t("defaults.thing").titleize)} - #{t("links.feedback").titleize}")}
             = t("links.feedback")
     .table-cell.map-container
       #map
-        &nbsp; 
+        &nbsp;
