@@ -15,9 +15,10 @@
         #col1
           %a{:href => "http://codeforamerica.org/"}
             = image_tag "logos/cfa.png", :alt => t("sponsors.cfa"), :title => t("sponsors.cfa")
-          <br>
-          <br>
-          <br>
+            
+            
+            
+          %br
         #col2
           %a{:href => "http://datalook.io/"}
             = image_tag "logos/datalook.png", :alt => t("sponsors.city"), :title => t("sponsors.city")
@@ -26,13 +27,10 @@
         %p
           %a{:href => URI.escape("mailto:costantin@datalook.io?subject=#{t("titles.main", :thing => t("defaults.thing").titleize)} - #{t("links.feedback").titleize}")}
             = t("links.feedback")
-            
-            #Fork on GitHub
-        %p
-          %a{:href => URI.escape("www.github.com/CostantinB/adopt-a-hydrant").titleize)} - #{t("links.fork on Github").titleize}")}
-            = t("links.fork on Github")
-            
-            
     .table-cell.map-container
       #map
+      
+      #Fork on Github
+        %p
+          %a{:href => URI.escape("www.github.com/costantinb/adopt-a-hydrant{t("titles.main", :thing => t("defaults.thing")
         &nbsp;
