@@ -19,8 +19,6 @@ You can see a running version of the application at
 
 [demo]: http://adopt-a-hydrant.herokuapp.com/
 
-#Test
-
 ## Installation
 This application requires [Postgres](http://www.postgresql.org/) to be installed
 
