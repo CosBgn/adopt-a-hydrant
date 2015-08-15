@@ -15,7 +15,7 @@ Claim responsibility for shoveling out a fire hydrant after it snows.
 
 ## Demo
 You can see a running version of the application at
-[http://adopt-a-hydrant.herokuapp.com/][demo].
+[http://paloposti.herokuapp.com/][demo].
 
 [demo]: http://adopt-a-hydrant.herokuapp.com/
 
