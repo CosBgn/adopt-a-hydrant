@@ -15,9 +15,9 @@ Claim responsibility for shoveling out a fire hydrant after it snows.
 
 ## Demo
 You can see a running version of the application at
-[http://paloposti.herokuapp.com/][demo].
+[http://adoptahydrant.xyz][demo].
 
-[demo]: http://paloposti.herokuapp.com/
+[demo]: http://adoptahydrant.xyz
 
 ## Installation
 This application requires [Postgres](http://www.postgresql.org/) to be installed
