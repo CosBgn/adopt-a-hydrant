@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
-ruby '2.2.3'
+ruby '2.3.0'
 
-gem 'rails', '~> 4.2.4'
+gem 'rails', '~> 4.2.5'
 
 gem 'arel'
 gem 'devise'
@@ -27,13 +27,9 @@ group :development do
   gem 'spring'
 end
 
-group :development, :test do
-  gem 'pry'
-end
-
 group :production do
+  gem 'puma'
   gem 'skylight'
-  gem 'unicorn'
 end
 
 group :test do
